@@ -1,0 +1,35 @@
+/* Apply this to the entire app container */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: linear-gradient(135deg, #1e90ff, #85d8ce)
+  
+}
+
+/* Optional: Style for h1 */
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Style for buttons */
+button {
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background: #333;
+  color: #fff;
+}

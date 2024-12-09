@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  width: 180px;
+  height: 100px;
+}
+
+.card .flipped .front {
+  transform: rotate(0);
+}
+
+.card .flipped .back {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.4s;
+}
+
+.front {
+  transform: rotateY(180deg);
+}
+
+/* Back is blank */
+.back {
+  background: #bbb;
+  transform: rotateY(0);
+  cursor: pointer;
+  background: linear-gradient(135deg, #0f4174, #feffff)
+  
+}
