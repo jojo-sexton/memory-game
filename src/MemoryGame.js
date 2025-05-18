@@ -4,12 +4,30 @@ import "./MemoryGame.css";
 
 
 const cardImages = [
-  { src: "/img1.png", matched: false },
-  { src: "/img2.png", matched: false },
-  { src: "/img3.png", matched: false },
-  { src: "/img4.png", matched: false },
-  { src: "/img5.png", matched: false },
-  { src: "/img6.png", matched: false },
+  { src: "/foxplan/img1.png", matched: false },
+  { src: "/foxplan/img2.png", matched: false },
+  { src: "/foxplan/img3.png", matched: false },
+  // { src: "/foxplan/img4.png", matched: false },
+  // { src: "/foxplan/img5.jpg", matched: false },
+  // { src: "/foxplan/img6.jpg", matched: false },
+  { src: "/foxplan/img7.png", matched: false },
+  { src: "/foxplan/img8.png", matched: false },
+  // { src: "/foxplan/img9.png", matched: false },
+  // { src: "/foxplan/img10.png", matched: false },
+  // { src: "/foxplan/img11.png", matched: false },
+  // { src: "/foxplan/img12.png", matched: false },
+  { src: "/foxplan/img13.png", matched: false },
+  // { src: "/foxplan/img14.png", matched: false },
+  // { src: "/foxplan/img15.png", matched: false },
+  // { src: "/foxplan/img16.png", matched: false },
+  // { src: "/foxplan/img17.png", matched: false },
+  { src: "/foxplan/img18.png", matched: false },
+  { src: "/foxplan/img19.png", matched: false },
+  { src: "/foxplan/img20.png", matched: false },
+  // { src: "/foxplan/img21.png", matched: false },
+  // { src: "/foxplan/img22.png", matched: false },
+  { src: "/foxplan/img23.png", matched: false },
+  { src: "/foxplan/img24.png", matched: false },
 ];
 function MemoryGame() {
   const [cards, setCards] = useState([]);

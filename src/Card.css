@@ -1,7 +1,8 @@
 .card {
   position: relative;
-  width: 180px;
+  width: 100px;
   height: 100px;
+
 }
 
 .card .flipped .front {
@@ -25,11 +26,11 @@
   transform: rotateY(180deg);
 }
 
-/* Back is blank */
+
 .back {
   background: #bbb;
-  transform: rotateY(0);
+  transform: rotateY(180);
   cursor: pointer;
-  background: linear-gradient(135deg, #0f4174, #feffff)
+  background: linear-gradient(135deg, #fff200, #6f7067)
   
 }
