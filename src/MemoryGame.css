@@ -4,8 +4,8 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
   max-width: 900px;
   margin: 0 auto;
 }

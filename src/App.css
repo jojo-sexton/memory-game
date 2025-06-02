@@ -7,19 +7,21 @@
   justify-content: top;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(70, 69, 60);
-  background: rgb(255, 255, 255)
-  
+  background-image: url('../public/kb/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Optional: Style for h1 */
 h1 {
-  font-size: 3rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px rgba(3, 78, 23, 0.3);
+  color:#065918
 }
 
 /* Optional: Style for buttons */
 button {
-  background: rgb(254,220,0);
+  background: rgb(112, 252, 91);
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -31,5 +33,5 @@ button {
 
 button:hover {
   background: #333;
-  color: #fff;
+  color: #00ff37;
 }
