@@ -1,36 +1,36 @@
 .card {
   position: relative;
   width: 100px;
-  height: 100px;
-
-}
-
-.card .flipped .front {
-  transform: rotate(0);
-}
-
-.card .flipped .back {
-  transform: rotateY(180deg);
-}
+  height: 100px;}
 
 .front, .back {
   width: 100%;
   height: 100%;
   border-radius: 10px;
   position: absolute;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
   transition: transform 0.4s;
 }
 
-.front {
-  transform: rotateY(180deg);
+.front{
+transform:scale(0)
 }
 
 
+.card .flipped .front {
+  transform: scale(1);
+  transform:translate(-50px);
+  transition: transform 0.4s;
+
+}
 .back {
+  transition: all ease-in 0.2s;
   background: #bbb;
-  transform: rotateY(180);
   cursor: pointer;
-  background: linear-gradient(135deg, #38ff56, #6f7067)
-  
+  background: linear-gradient(135deg, #38ff56, #6f7067);
 }
+
+.card .flipped .back {
+  transform: rotateY(90deg);
+}
+
