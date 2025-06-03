@@ -1,7 +1,8 @@
 .card {
   position: relative;
-  width: 100px;
-  height: 100px;}
+  width: 6rem;
+  aspect-ratio: 1;
+}
 
 .front, .back {
   width: 100%;
@@ -19,7 +20,7 @@ transform:scale(0)
 
 .card .flipped .front {
   transform: scale(1);
-  transform:translate(-50px);
+  transform:translate(-3rem);
   transition: transform 0.4s;
 
 }
