@@ -5,7 +5,8 @@ import "./App";
 function App() {
   return (
     <div className="App">
-      <h1>Mind Spark - Match and Win</h1>
+      <h1>Mind Spark</h1>
+      <h2>(Flip and Find)</h2>
       <MemoryGame />
     </div>
   );
